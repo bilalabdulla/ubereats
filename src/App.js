@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import CardList from './components/CardList';
+import Cities from './components/Cities';
+import Countries from './components/Countries';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import HeaderFull from './components/HeaderFull';
+import Navbar from './components/Navbar';
+import NavbarTwo from './components/NavbarTwo';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchBar />
+      <NavbarTwo />
+      <HeaderFull />
+      <CardList />
+      <Cities />
+      <Countries />
+      <Footer />
     </div>
   );
 }
