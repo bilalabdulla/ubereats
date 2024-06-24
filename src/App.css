@@ -110,12 +110,18 @@ button:focus {
   border-radius: 20px;
   margin: 5px;
 }
+.log-btn:hover{
+  background-color: #d4d1d1;
+}
 .sign-btn{
   padding: 10px;
   background-color: #000;
   color: white;
   border-radius: 20px;
   margin: 5px;
+}
+.sign-btn:hover{
+  background-color: #232323;
 }
 .bar-icon{
   padding: 8px;
@@ -198,6 +204,9 @@ button:focus {
   margin: 5px;
   height: 60px;
   box-sizing: border-box;
+}
+.search-btn:hover{
+  background-color: #232323;
 }
 
 .header-end{
@@ -291,6 +300,9 @@ button:focus {
   text-align: start;
   padding: 10px 0;
 }
+.footer-content a:hover{
+  text-decoration: underline;
+}
 .apps{
   display: flex;
 }
@@ -328,6 +340,9 @@ button:focus {
 .footer-end-right a{
   padding: 0 10px;
 }
+.footer-end-right a:hover{
+  text-decoration: underline;
+}
 
 .copyright{
   display: flex;
@@ -337,6 +352,78 @@ button:focus {
 .copyright p{
   padding: 0 10px;
 }
+
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+.overlay{
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #ffffff;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+  border-radius: 12px;
+}
+.close-modal{
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  padding: 5px 7px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.active-modal{
+  overflow-y: hidden;
+}
+.modal-select{
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #dedada;
+}
+.modal-in-btn{
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.modal-in-btn-two{
+  width: 100%;
+  height: 50px;
+  background-color: #dedada;
+  text-align: center;
+}
+.modal-title{
+  margin: 40px 0 20px 0;
+}
+
 
 @media screen and (max-width:1200px){
   .delivery{
