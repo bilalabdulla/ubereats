@@ -6,9 +6,9 @@ function Cities() {
     <div className='cities'>
         <div className='cities-head'>
             <h2 className='card-title'>Cities near me</h2>
-            <a className='card-link view'>View all 500 cities</a>
+            <a className='card-link view' href='#'>View all 500 cities</a>
         </div>
-        <img src={Map} className='map-img'></img>
+        <img src={Map} className='map-img' alt=''></img>
         <div className='city-list'>
             <div className='city-names'>
                 <p>Akron</p>
@@ -42,7 +42,7 @@ function Cities() {
                 <p>Tucson</p>
                 <p>West Hollywood</p>
             </div>
-            <a className='hidden'>View all 500 cities</a>
+            <a className='hidden' href='#'>View all 500 cities</a>
         </div>
     </div>
   )

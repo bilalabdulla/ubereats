@@ -5,7 +5,7 @@ function Countries() {
     <div className='cities'>
         <div className='cities-head'>
             <h2 className='card-title'>Countries with Uber Eats</h2>
-            <a className='card-link view'>View all countries</a>
+            <a className='card-link view' href='#'>View all countries</a>
         </div>
         <div className='city-list'>
             <div className='city-names'>
@@ -46,7 +46,7 @@ function Countries() {
                 <p>United States</p>
             </div>
         </div>
-        <a className='hidden'>View all countries</a>
+        <a className='hidden' href='#'>View all countries</a>
     </div>
   )
 }

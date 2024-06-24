@@ -2,18 +2,11 @@ import React, { useState } from 'react'
 
 function Navbar() {
   const [colorChange, setColorChange] = useState(false)
-  const [navbarChange, setNavBarChange] = useState(false)
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
       setColorChange(true)
     } else {
       setColorChange(false)
-    }
-    if (window.scrollY >= 500){
-      setNavBarChange(true)
-    }
-    else{
-      setNavBarChange(false)
     }
   }
   window.addEventListener('scroll', changeNavbarColor)

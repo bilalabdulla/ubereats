@@ -34,7 +34,7 @@ function Header() {
       </div>
       <div className='header-end'>
         <p>Or</p>
-        <a>Sign in</a>
+        <a href='#'>Sign in</a>
       </div>
     </div>
     
