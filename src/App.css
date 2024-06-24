@@ -190,6 +190,7 @@ button:focus {
   text-align: center;
   border: none;
   font-size: 16px;
+  background-color: white;
 }
 .option{
   font-size: 20px;
